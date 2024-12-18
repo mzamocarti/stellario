@@ -1,0 +1,49 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 16 Jan 2024, 23:04:52
+    Author     : mzamocarti
+*/
+/*back video*/
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height: 100%
+    }
+}
+/*services*/
+.w2-quarter h2{
+    text-align: center;
+}
+
+.w3-red w3-xlarge w3-padding-48{
+    color: #8cbd26;
+}
+.fa fa-check{
+    color: green;
+}
+
+.text{
+   
+    padding-left: 200px;
+}
+/*team*/
+.a{
+    text-decoration: none;
+}

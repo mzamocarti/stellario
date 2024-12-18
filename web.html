@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/><!--remixicon-->
+    </head>
+    <body>
+        <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src='images/Slogo.png' height= 20px></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button">ABOUT</a>
+
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SERVICES</a>
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<!--PRICING-->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>PRICING</h3>
+  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16"><b>1-5</b> pages</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Domain Name</li>
+       <i class="fa fa-check"></i> <li class="w3-padding-16"><b>1</b> Year Hosting</li>
+       <i class="fa fa-check"></i><li class="w3-padding-16">Theme</li>
+        <i class="fa fa-times"></i><li class="w3-padding-16">Contact Forms</li>
+        <i class="fa fa-times"></i><li class="w3-padding-16">Basic CMS integration</li>
+        <i class="fa fa-times"></i><li class="w3-padding-16">Fully Custom</li>
+        <i class="fa fa-times"></i><li class="w3-padding-16">E-Commerce Functionality</li>
+        <i class="fa fa-times"></i><li class="w3-padding-16">Purchase Process</li>
+        <i class="fa fa-times"></i><li class="w3-padding-16">Customer emails</li>
+
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R 3000 - 7000</h2>
+          <span class="w3-opacity">price depends on complexity and number of pages</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <a href = "https://calendly.com/stellario/service-consultation"><button class="w3-button w3-black w3-padding-large">Book Consultation</button></a>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Standard</li>
+      <i class="fa fa-check"></i><li class="w3-padding-16"><b>1-5</b> pages</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Domain Name</li>
+       <i class="fa fa-check"></i> <li class="w3-padding-16"><b>1</b> Year Hosting</li>
+       <i class="fa fa-check"></i><li class="w3-padding-16">Theme</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Contact Forms</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Basic CMS integration</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Fully Custom</li>
+        <i class="fa fa-times"></i><li class="w3-padding-16">E-Commerce Functionality</li>
+        <i class="fa fa-times"></i><li class="w3-padding-16">Purchase Process</li>
+        <i class="fa fa-times"></i><li class="w3-padding-16">Customer emails</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R 7000 - 15000</h2>
+          <span class="w3-opacity">price depends on complexity and number of pages</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <a href = "https://calendly.com/stellario/service-consultation"><button class="w3-button w3-black w3-padding-large">Book Consultation</button></a>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">E-Commerce</li>
+         <i class="fa fa-check"></i><li class="w3-padding-16"><b>10+</b> pages</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Domain Name</li>
+       <i class="fa fa-check"></i> <li class="w3-padding-16"><b>1</b> Year Hosting</li>
+       <i class="fa fa-check"></i><li class="w3-padding-16">Theme</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Contact Forms</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Basic CMS integration</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Fully Custom</li>
+       <i class="fa fa-check"></i><li class="w3-padding-16">E-Commerce Functionality</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Purchase Process</li>
+        <i class="fa fa-check"></i><li class="w3-padding-16">Customer emails</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R 12000 - 30000</h2>
+          <span class="w3-opacity">price depends on complexity and number of pages</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <a href = "https://calendly.com/stellario/service-consultation"><button class="w3-button w3-black w3-padding-large">Book Consultation</button></a>
+        </li>
+      </ul>
+    </div>
+          <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Maintenance/Support Website Hosting</li>
+     
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R 800</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <a href = "https://calendly.com/stellario/service-consultation"><button class="w3-button w3-black w3-padding-large">Book Consultation</button></a>
+        </li>
+      </ul>
+    </div>
+      <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Custom content/Content Migration/ Product Input/ Additional Development</li>
+      
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R 1699</h2>
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+         <a href = "https://calendly.com/stellario/service-consultation"><button class="w3-button w3-black w3-padding-large">Book Consultation</button></a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+   <a href="https://m.youtube.com/channel/UCgH-Fv8oWc7XZlGrs-oe-8w"><i class="fa fa-youtube-play" ></i></a>
+      
+    <a href="https://www.facebook.com/profile.php?id=61555834660115&mibextid=LQQJ4d"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+<a href="https://www.instagram.com/stellario.io?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href= "https://www.tiktok.com/@stellario.co.za"><i class="ri-tiktok-fill"></i></a>
+<a href="https://www.linkedin.com/company/101563457/admin/feed/posts/?feedType=following"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p>Powered by <font color="green">Stellario</font></p>
+</footer>
+    </body>
+</html>
